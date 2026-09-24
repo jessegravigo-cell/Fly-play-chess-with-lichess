@@ -18,7 +18,7 @@ import torch.optim as optim
 # =====================================================================
 # CONFIGURATION
 # =====================================================================
-LICHESS_TOKEN = os.environ.get("LICHESS_TOKEN", "67") #put your api key first
+LICHESS_TOKEN = os.environ.get("LICHESS_TOKEN", "67") #put your api key first and replace the 67
 WEIGHTS_FILE = "fly_brain_weights.pth"
 CONNECTOME_FILE = "fly_connectome.npz"
 
